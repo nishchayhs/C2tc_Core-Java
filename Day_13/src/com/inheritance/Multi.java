@@ -4,7 +4,7 @@ class Cars1{
 		System.out.println("engine");
 	}
 }
-class Lightweight_Cars1 extends Cars1{
+class Lightweight_Cars1 extends Cars1{//actually  heavy weight cars should come first but its already done so just assume this way 
 	void petrol_engine()
 	{
 	System.out.println("petrol engine");
