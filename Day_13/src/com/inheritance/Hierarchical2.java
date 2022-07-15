@@ -24,14 +24,13 @@ public class Hierarchical2 {
 Vehicle v = new Vehicle();		
 Karnataka k = new Karnataka();
 Tamilnadu t = new Tamilnadu();
-Vehicle a = new Karnataka();
+
 
 k. numplates1();
 k. numplates2();
 t. numplates1();
 t. numplates3();
 v. numplates1();
-a. numplates1();
 
 	}
 
