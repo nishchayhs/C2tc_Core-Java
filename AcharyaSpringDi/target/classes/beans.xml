@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+     <bean id= "MathChitReference" class="com.tns.di1.MathCheat"/>
+     
+     
+    <bean id="student" class="com.tns.di1.Student">
+    <property name="chit" ref="MathChitReference">
+    </property>
+    </bean>
+    
+    <bean id="student1" class="com.tns.di1.AnotherStudent">
+    <property name="chit" ref="MathChitReference">
+    </property>
+    </bean>
+    
+    
+</beans>
